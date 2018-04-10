@@ -41,18 +41,32 @@ header {
 }
 
 .main_pic {
-	background-image: url(../images/toad.jpg);
-    background-repeat: no-repeat center;
+	background: url(../images/toad.jpg)center no-repeat;
 	height:800px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
 	width: 90%
 }
-
+.main_pic section{
+	padding-top:280px;
+	text-align:center;
+	color:#FFFFFF;
+}
 .main_pic h1 {
-	color:white;
 	font-size:60px;
 	text-decoration: underline blue;
-	text-align:center;
+	padding-bottom: 20px;
+}
+
+.main_pic p{
+	font-size:30px;
+	padding-bottom:10px;
+}
+.main_pic a{
+	font-size:30px;
+	border-style: solid;
+	border-width:thin;
+	border-color: blue;
+	padding:5px;
 }
