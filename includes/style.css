@@ -65,7 +65,9 @@ header {
 	border-width:thick;
 	border-color:#0000FF;
 }
-.main_pic 
+.main_pic a:hover{
+	color:#F23123;
+}
 
 .desc {
 	padding-top:20px;
@@ -81,8 +83,31 @@ header {
 	text-align: center;
 
 }
-
 .skills{
-	padding-top:30px;
+	margin-top:20px;
+	margin-bottom:130px;
+}
+.skills h2{
+	padding-top:10px;
+	padding-bottom:70px;
 	text-align:center;
 }
+
+.skills li{
+	padding-bottom:30px;
+	margin-left:600px;
+	list-style-type: none;
+	font-size:30px;
+}
+footer{
+	padding-top:50px;
+	margin-left:70px;
+	
+}
+footer img {
+	vertical-align:middle;
+}
+footer h5 {
+	display:inline-block;
+	}
+
