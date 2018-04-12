@@ -51,16 +51,23 @@ header {
 }
 .main_pic h1 {
 	font-size:60px;
-	padding-bottom:20px;
+	border-bottom:#15a4fa solid;
+	margin:10px;
+	display:inline-block;
 }
 
 .main_pic p{
 	font-size:30px;
 	padding-bottom:10px;
 }
+.inlineblock{
+	display=inline-block;
+}
 .main_pic a{
 	color:#FFFFFF;
-	font-size:30px;
+	font-size:20px;
+	border:#15a4fa solid 1px;
+	padding:5px;
 }
 .main_pic a:hover{
 	color:#F23123;
@@ -94,6 +101,9 @@ header {
 	padding-bottom:30px;
 	list-style-type:none;
 	font-size:30px;
+}
+.skills img{
+	width:50px;
 }
 
 footer{
