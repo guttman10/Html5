@@ -92,15 +92,13 @@ header {
 
 .skills li{
 	padding-bottom:30px;
-	margin-left:600px;
-	list-style-type: none;
+	list-style-type:none;
 	font-size:30px;
 }
 
 footer{
 	padding-top:50px;
 	margin-left:70px;
-	
 }
 footer img {
 	vertical-align:middle;
