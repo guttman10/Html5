@@ -96,14 +96,19 @@ header {
 	padding-bottom:70px;
 	text-align:center;
 }
-
+.skills ul{
+	display:table;
+}
 .skills li{
+	
 	padding-bottom:30px;
 	list-style-type:none;
 	font-size:30px;
+	margin-left: 650px;
 }
 .skills img{
 	width:50px;
+	vertical-align:middle;
 }
 
 footer{
@@ -117,4 +122,3 @@ footer h5 {
 	display:inline-block;
 	text-align:center;
 	}
-
